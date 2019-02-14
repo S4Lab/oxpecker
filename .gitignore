@@ -1,0 +1,72 @@
+# Object files
+*.o
+*.ko
+
+# Libraries
+*.lib
+*.a
+
+# Shared objects (inc. Windows DLLs)
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# Executables
+*.out
+*.app
+
+# cache/backup
+*~
+
+#KDevelop files
+*.kdev4
+
+# python
+__pycache__
+*.pyc
+
+# memory dump
+*.raw
+
+# libnitro cmake build dir
+libnitro/_build
+libnitro/build
+
+# virtualenv
+venv/
+
+# rekall cache
+rekall_cache/
+
+events.json
+
+# ide
+.idea/
+.vscode/
+
+# package
+dist
+build
+*.egg-info
+libvmi_helper.log
+
+# tags
+TAGS
+GPATH
+GRTAGS
+GTAGS
+
+tests/linux_binaries/build/
+
+# cffi
+*.c
+
+# egg
+.eggs/
+
+# csv
+*.csv
+.~lock*
+
+tests
